@@ -3,12 +3,16 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import "./App.css";
 import { Card } from "./components/ProductCard";
+import { Header } from "./components/Header";
 
 function App() {
   return (
     <>
-      <h1>Projeto Inicial React com Vite</h1>
-
+      {/* <h1>Projeto Inicial React com Vite</h1> */}
+      <Header
+        name={"Lanchonete da Praça"}
+        openingHours={"Todos os dias das 18:00 as 23:00"}
+      />
       {/* {lista.map((item) => {
         <Card
           price={item.price}
@@ -16,15 +20,12 @@ function App() {
           description={item.description}
         />;
       })} */}
-
       <Card
         price={29.4}
         name={"X-Burguer"}
         description={"Pão, hambúrguer de 120 g, queijo e molho da casa."}
       />
-
       <Card price={9.5} name={"Pepsi Black"} description={"2 litros"} />
-
       <Card
         price={60.99}
         name={"Combo X-Burguer"}
