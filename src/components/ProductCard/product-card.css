@@ -49,3 +49,23 @@ button {
 button:hover {
   background-color: #9a3412;
 }
+
+.badge {
+  align-self: flex-start;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background-color: #fde047;
+  color: #422006;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.tag {
+  align-self: flex-start;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background-color: #e7e5e4;
+  color: #44403c;
+  font-size: 14px;
+  font-weight: bold;
+}
